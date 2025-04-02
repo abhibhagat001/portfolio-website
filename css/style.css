@@ -1,0 +1,296 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family:"Kanit", sans-serif;
+}
+ 
+.navbar{
+     background: #171d32;
+}
+ 
+#portfolio{
+    font-size: 2rem;
+    font-weight: 700;
+ 
+}
+ 
+.navbar-nav a{
+    font-size: 22px;
+    position: relative;
+    text-decoration: none;
+}
+ 
+.navbar-nav a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: 2px;
+    transition: width 0.5s ease;
+}
+ 
+.navbar-nav a:hover::after{
+    width: 100%;
+}
+ 
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+ 
+.intro{
+    background: #171d32;
+    padding-bottom: 100px;
+}
+ 
+#intro-text{
+    color: white;
+}
+ 
+#intro-text p{
+    font-size: 1.4rem;
+}
+
+
+#contact-btn{
+    width: 180px;
+    padding: 10px 2px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+ 
+.profile-pic{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid red;
+ 
+}
+ 
+.about .container .row{
+    margin-inline: 50px;
+}
+ 
+.about{
+    background: #171d32;
+    color: white;
+    padding-bottom: 100px;
+ 
+}
+ 
+.about h1{
+    padding: 20px 40px;
+}
+ 
+.work .work-description{
+  font-size: 20px;
+  font-weight: 400;
+}
+ 
+.work{
+    display: flex;
+    gap: 10px;
+}
+ 
+.work,.fa-arrow-right {
+    font-size: 28px;
+    font-weight: 600;
+}
+ 
+.work p{
+    font-size: 20px;
+    font-weight: 400;
+}
+ 
+.experience{
+    background: #171d32;
+    color: white;
+    padding-bottom: 100px;
+}
+ 
+.card-content{
+    border-radius: 15px;
+    max-width: 550px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #000;
+}
+ 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:20px;
+ 
+}
+ 
+.grid-item{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 auto;
+}
+ 
+#experience-row{
+    border-radius: 20px;
+    padding: 0px 0px;
+    margin-inline: 50px
+}
+ 
+.experience h1{
+    padding: 20px 40px;
+}
+ 
+.experience-description .fw-bold{
+    font-size: 18px;
+}
+ 
+.projects{
+    background:  #171d32;
+    padding-bottom: 150px;
+}
+ 
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));  
+    margin-inline: 75px;
+    gap:29px;
+}
+ 
+.project{
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 45px 40px;
+    border: 1px solid black;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+}
+ 
+.project img{
+    width: 100%;
+}
+ 
+.project button{
+    background:rgb(70 86 151);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+.projects h2{
+    padding: 20px 90px;
+}
+ 
+.contact{
+    background-color:rgb(70 86 151);
+    color: white;
+    padding: 80px 170px;
+}
+ 
+.contact-text{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+ 
+.tagline{
+    font-size: 20px;
+    color: #ccc;
+}
+ 
+.social-links a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: color 0.4s ease;
+    text-decoration: none;
+}
+ 
+@media (max-width:576px){
+    .profile-pic{
+        margin-bottom: 50px;
+    }
+ 
+    #intro-text{
+        text-align: center;
+    }
+ 
+    #contact-btn{
+       margin: 0 auto;
+    }
+ 
+    .about .container .row{
+        margin-inline: 0px;
+    }
+ 
+    #intro-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+ 
+    .grid-container{
+        margin-bottom: 29px;
+    }
+ 
+    #experience-row{
+        padding: 0px;
+        margin-inline: 0px;
+    }
+ 
+    .card-content{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+ 
+    }
+ 
+    .projects-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-inline: 10px;
+    }
+ 
+    .project{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+ 
+    .projects h2{
+        padding: 20px 30px;
+    }
+ 
+    .project h3{
+        padding-block: 20px;
+    }
+ 
+    .project button{
+        margin-bottom: 10px;
+    }
+ 
+    .contact{
+        padding: 40px 10px;
+    }
+ 
+    .social-links a{
+        font-size: 16px;
+    }
+   
+}
+
+ 
