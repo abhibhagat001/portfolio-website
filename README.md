@@ -38,7 +38,7 @@ Portfolio/
 
 ## Live Demo
 
-- Click here to view the live version
+- https://abhishekbhagat24.netlify.app/ 
 
 ## Contact
 
