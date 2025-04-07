@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./libs/bootstrap.min.js" defer></script>
     <script src="libs/scrollreveal.min.js" defer></script>
     <script src="js/index.js" defer></script>
@@ -59,7 +60,7 @@
           <div class="col-sm-6 col-md-6 d-flex flex-column justify-content-center" id="intro-text">
             <h1>Hello, I am Abhishek !!!</h1>
             <p><i>Curious Frontend Developer with passion for learning and creating.</i></p>
-            <div class="btn btn-warning fw-semibold" id="contact-btn">⤓ Download Resume</div>
+            <div class="btn btn-warning fw-semibold" id="contact-btn"><i class="fa-solid fa-download"></i> Download Resume</div>
           </div>
         </div>
        </div>
@@ -107,18 +108,18 @@
             <h1 class="mb-5 experience-heading">Experience</h1>
             <div class="col-md-6 col-sm-12 mb-sm-5">
               <div class="grid-container">
-                <div class="grid-item"><img lazy="loading" src="./assets/html-icon.svg" alt="html-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/css-icon.svg" alt="css-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/bootstrap-5-logo-icon.svg" alt="bootstrap-5-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/javascript-logo-svgrepo-com.svg" alt="javascript-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/database.svg" alt="database-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/react-svgrepo-com.svg" alt="react-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="./assets/git-icon.svg" alt="git-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="assets/google-maps.svg" alt="google-maps-logo" style="width: 50px;"></div>
-                <div class="grid-item"><img lazy="loading" src="assets/typescript.svg" alt="typescript-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="assets/vscode.svg" alt="vscode-logo" style="width: 50px;" /></div>
-                <div class="grid-item"><img lazy="loading" src="assets/firebase.svg" alt="firebase-logo" style="width: 50px;"/></div>
-                <div class="grid-item"><img lazy="loading" src="assets/github.svg" alt="github-logo" style="width: 50px;"></div>
+                <div class="grid-item" title="HTML5"><img lazy="loading" src="./assets/html-icon.svg" alt="html-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="CSS"><img lazy="loading" src="./assets/css-icon.svg" alt="css-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="Bootstrap"><img lazy="loading" src="./assets/bootstrap-5-logo-icon.svg" alt="bootstrap-5-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="JavaScript"><img lazy="loading" src="./assets/javascript-logo-svgrepo-com.svg" alt="javascript-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="SQL"><img lazy="loading" src="./assets/database.svg" alt="database-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="React JS"><img lazy="loading" src="./assets/react-svgrepo-com.svg" alt="react-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="Git"><img lazy="loading" src="./assets/git-icon.svg" alt="git-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="Google Maps API"><img lazy="loading" src="assets/google-maps.svg" alt="google-maps-logo" style="width: 50px;"></div>
+                <div class="grid-item" title="Typescript"><img lazy="loading" src="assets/typescript.svg" alt="typescript-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="VScode Editor"><img lazy="loading" src="assets/vscode.svg" alt="vscode-logo" style="width: 50px;" /></div>
+                <div class="grid-item" title="Firebase"><img lazy="loading" src="assets/firebase.svg" alt="firebase-logo" style="width: 50px;"/></div>
+                <div class="grid-item" title="Github"><img lazy="loading" src="assets/github.svg" alt="github-logo" style="width: 50px;"></div>
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -157,25 +158,28 @@
           <h2 class="text-light project-heading">Projects</h2>
           <div class="projects-container">
             <div class="project">
-              <img src="assets/photo-C8q0KQHG.webp" alt="" />
-              <h3 class="py-md-3">Blogging Website</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem impedit blanditiis quis officia saepe. Non aliquid nulla qui cupiditate eveniet?</p>
-              <button class="me-2 mb-md-2"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</button>
-              <button class="me-2 mb-md-2">Source Code</button>
+              <img src="assets/Moviexer.png" alt="" />
+              <h3 class="py-md-3">Movie Search Web App</h3>
+              <p>Built a responsive movie search app using React.js, with Firebase for auth and watchlist storage. Integrated OMDB API via Axios, and used React Router & Context API for navigation and state. Features include dark mode, pagination, and a modern UI with Bootstrap, Material UI, and CSS3.</p>
+              <p>Tech Stack: React.js, Firebase Authentication, Firestore, OMDB API, Axios, React Router, Context API, Bootstrap, Material UI, CSS3</p>
+              <a href="https://movie-search-rlhapx1ea-abhibhagat001s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="https://github.com/abhibhagat001/moviexer" target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
             </div>
             <div class="project">
-              <img src="assets/photo-C8q0KQHG.webp" alt="" />
-              <h3 class="py-md-3">Youtue Clone</h3>
-              <p>this is a bloggin website created in next js and used some component library used some component library</p>
-              <button class="me-2 mb-md-2"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</button>
-              <button class="me-2 mb-md-2">Source Code</button>
+              <img src="assets/Gemini-clone.png" alt="" />
+              <h3 class="py-md-3">Gemini Frontend (Google Gemini UI Clone)</h3>
+              <p>A responsive UI clone of Google’s Gemini built with React.js and Vite, showcasing modern design and component-based architecture.</p>
+              <p>Tech Stack: React.js, Vite, JavaScript, HTML/CSS, ESLint</p>
+              <a href="https://gemini-clone-frontend-tt2v.vercel.app/" target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="https://github.com/abhibhagat001/Gemini-Clone-Frontend" target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
             </div>
             <div class="project">
-              <img src="assets/photo-C8q0KQHG.webp" alt="" />
-              <h3 class="py-md-3">Netflix Clone</h3>
-              <p>this is a blogging website created this ijsdjf l in next js and used some component library used some component library</p>
-              <button class="me-2 mb-md-2"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</button>
-              <button class="me-2 mb-md-2">Source Code</button>
+              <img src="assets/EBook-Website.png" alt="" />
+              <h3 class="py-md-3">Ebook Website</h3>
+              <p>A responsive landing page built using Bootstrap, Sass, and Font Awesome icons to practice modern UI design.It Includes elements like a sticky navbar, testimonials, and a contact section.</p>
+              <p>Tech Stack: HTML/CSS,Bootstrap,Saas(SCSS),Font Awesome</p>
+              <a href="https://readnest.netlify.app/ " target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="https://github.com/abhibhagat001/Ebook-Website" target="_blank" rel="noopener noreferrer" class="me-2 mb-md-2 btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
             </div>
           </div>
         </div>
