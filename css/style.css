@@ -267,6 +267,8 @@
     .project{
         margin: 0 auto;
         margin-bottom: 20px;
+        min-width: 300px;
+        
     }
  
     .projects h2{
