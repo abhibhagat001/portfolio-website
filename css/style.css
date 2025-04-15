@@ -10,7 +10,7 @@
 }
  
 .navbar{
-     background: #171d32;
+     background: #0f172a;
 }
  
 #portfolio{
@@ -45,7 +45,7 @@
 }
  
 .intro{
-    background: #171d32;
+    background: #0f172a;
     padding-bottom: 100px;
 }
  
@@ -78,7 +78,7 @@
 }
  
 .about{
-    background: #171d32;
+    background: #0f172a;
     color: white;
     padding-bottom: 100px;
  
@@ -109,7 +109,7 @@
 }
  
 .experience{
-    background: #171d32;
+    background: #0f172a;
     color: white;
     padding-bottom: 100px;
 }
@@ -156,7 +156,7 @@
 }
  
 .projects{
-    background:  #171d32;
+    background:  #0f172a;
     padding-bottom: 150px;
 }
  
@@ -174,7 +174,7 @@
     border: 1px solid black;
     background: #000;
     color: white;
-    border-radius: 20px;
+    border-radius: 20px;   
 }
  
 .project img{
@@ -290,7 +290,6 @@
     .social-links a{
         font-size: 16px;
     }
-   
 }
 
  
