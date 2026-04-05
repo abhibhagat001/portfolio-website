@@ -3,217 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Bhagat | Frontend Developer</title>
+    <title>Abhishek Bhagat | Software Engineer</title>
+    <meta name="description" content="Portfolio of Abhishek Bhagat, a software engineer working on React apps, frontend development, Google Maps features, and user-friendly web apps.">
     <link rel="shortcut icon" href="./assets/coding-html-svgrepo-com.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="./libs/bootstrap.min.js" defer></script>
     <script src="libs/scrollreveal.min.js" defer></script>
     <script src="js/index.js" defer></script>
-
 </head>
 <body>
- 
-    <nav class="navbar navbar-expand-lg p-4">
-        <div class="container">
-          <a href="index.html" class="navbar-brand text-light" id="portfolio">
-          My Portfolio
-          </a>
-          <button
-            class="navbar-toggler text-light"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-light" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link text-light mx-2" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light mx-2" href="#experience">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light mx-2" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light mx-2" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
- 
-      <section class="intro">
-       <div class="container">
-        <div class="row py-5">
-          <div class="col-sm-6 col-md-6 text-center">
-            <img  src='./assets/IMG_20240506_163535_377.jpg' alt="" class="img-fluid profile-pic" />
-          </div>
-          <div class="col-sm-6 col-md-6 d-flex flex-column justify-content-center" id="intro-text">
-            <h1>Hello, I am Abhishek !!!</h1>
-            <p><i>Curious Frontend Developer with passion for learning and creating.</i></p>
-            <a href="https://drive.google.com/file/d/13rVPTO2zxxUMP0akT_ktjfabiEQQraBk/view?usp=drive_link" target="_blank" download>
-              <div class="btn btn-warning fw-semibold" id="contact-btn" download><i class="fa-solid fa-download"></i> Download Resume</div>
-            </a>
-          </div>
-        </div>
-       </div>
-      </section>
- 
-      <section class="about" id="about">
-        <div class="container" id="intro-container">
-          <div class="row" style="background: #000;border-radius: 20px; padding: 50px 0px;">
-            <h1 class="about-heading">About</h1>
-            <div class="col-md-6 text-center">
-              <img src="assets/about.png" alt="" class="img-fluid about-img" style="width: 70%;" />
-            </div>
-            <div class="col-md-6 p-md-5">
-              <div class="work">
-                  <div class="bullet-point">➤</div>
-                  <div>
-                    <div class="heading">Frontend developer</div>
-                    <p class="work-description">Skilled in React.js, javascript, Bootstrap, HTML, CSS with experience in building interactive and functional web applications.Familiar with UI concepts and different UI componets libraries and continously improving responsive design skills.</p class="work-">
-                  </div>
-              </div>
- 
-              <div class="work">
-                <div class="bullet-point">➤</div>
-                <div>
-                    <div class="heading">Google Maps API Developer</div>
-                    <p class="work-description">Worked extensively with Google Maps API to integrate geolocation, markers, clustering and interactive maps.Skilled in handling the maps solutions and enhancing the location-based feature.</p>
+    <div class="page-shell">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand" id="portfolio">Abhishek Bhagat</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0 ms-lg-3">
+                            <a class="nav-cta" href="./assets/Abhishek_Bhagat_Resume.pdf" download="Abhishek_Bhagat_Resume.pdf">
+                                Resume
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
- 
-              <div class="work">
-                <div class="bullet-point">➤</div>
-              <div>
-                <div class="heading">Databases handling (Firestore)</div>
-                  <p class="work-description">Experienced in managing Firestore databases to store and retrieve real-time data efficiently.Implemented user authentication,dynamic data updates in projects.</p>
-              </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
- 
-      <section class="experience" id="experience">
-        <div class="container">
-          <div class="row" id="experience-row">
-            <h1 class="mb-5 experience-heading">Experience</h1>
-            <div class="col-md-6 col-sm-12 mb-sm-5">
-              <div class="grid-container">
-                <div class="grid-item" title="HTML5"><img lazy="loading" src="./assets/html-icon.svg" alt="html-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="CSS"><img lazy="loading" src="./assets/css-icon.svg" alt="css-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="Bootstrap"><img lazy="loading" src="./assets/bootstrap-5-logo-icon.svg" alt="bootstrap-5-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="JavaScript"><img lazy="loading" src="./assets/javascript-logo-svgrepo-com.svg" alt="javascript-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="SQL"><img lazy="loading" src="./assets/database.svg" alt="database-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="React JS"><img lazy="loading" src="./assets/react-svgrepo-com.svg" alt="react-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="Git"><img lazy="loading" src="./assets/git-icon.svg" alt="git-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="Google Maps API"><img lazy="loading" src="assets/google-maps.svg" alt="google-maps-logo" style="width: 50px;"></div>
-                <div class="grid-item" title="Typescript"><img lazy="loading" src="assets/typescript.svg" alt="typescript-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="VScode Editor"><img lazy="loading" src="assets/vscode.svg" alt="vscode-logo" style="width: 50px;" /></div>
-                <div class="grid-item" title="Firebase"><img lazy="loading" src="assets/firebase.svg" alt="firebase-logo" style="width: 50px;"/></div>
-                <div class="grid-item" title="Github"><img lazy="loading" src="assets/github.svg" alt="github-logo" style="width: 50px;"></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="card-content d-flex gap-md-4 align-items-center">
-                <img src="assets/Persistent Systems.svg" alt="" class="company-logo" style="width: 29%;"/>
-                <div class="experience-description">
-                  <div class="fw-bold">Senior Software Engineer , Persistent Systems, April 2025 - Present</div>
-                  <div>&nbsp;➤ Developed a real-time Kanban dashboard in React.js to help clients to track 100+ tickets/week, improving visibility and
-                    accelerating decision-making</div>
-                  <div>&nbsp;➤ Automated Google Maps API SKU billing calculations with a custom billing calculator, reducing manual calculation
-                    efforts by 98% using React.js and Material UI components</div>
-                    <div>&nbsp;➤ Focused on optimizing React.js applications for better performance.</div>
+        </nav>
+
+        <main>
+            <section class="intro" id="home">
+                <div class="container">
+                    <div class="hero-panel">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-7 order-2 order-lg-1">
+                                <div id="intro-text">
+                                    <span class="eyebrow">Lead Software Engineer / React / Frontend</span>
+                                    <h1>I build simple, useful, and modern web apps.</h1>
+                                    <p class="hero-copy">
+                                        I am Abhishek Bhagat, a software engineer with experience in React,
+                                        frontend development, APIs, and Google Maps. I like building web apps
+                                        that are clean, fast, and easy to use.
+                                    </p>
+                                    <div class="hero-actions">
+                                        <a href="./assets/Abhishek_Bhagat_Resume.pdf" download="Abhishek_Bhagat_Resume.pdf" class="btn primary-btn" id="contact-btn">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download Resume
+                                        </a>
+                                        <a href="#projects" class="btn secondary-btn">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                            View Projects
+                                        </a>
+                                    </div>
+                                    <div class="hero-stats">
+                                        <div class="stat-card">
+                                            <span class="stat-value">3+ Years</span>
+                                            <span class="stat-label">Work experience</span>
+                                        </div>
+                                        <div class="stat-card">
+                                            <span class="stat-value">React + TypeScript</span>
+                                            <span class="stat-label">Main frontend stack</span>
+                                        </div>
+                                        <div class="stat-card">
+                                            <span class="stat-value">Lead Engineer</span>
+                                            <span class="stat-label">Now working at Persistent Systems</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 order-1 order-lg-2">
+                                <div class="hero-visual">
+                                    <img src="./assets/IMG_20240506_163535_377.jpg" alt="Portrait of Abhishek Bhagat" class="img-fluid profile-pic">
+                                    <div class="hero-badge">
+                                        <span class="badge-dot"></span>
+                                        Open to new opportunities
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="card-content d-flex gap-md-4 align-items-center">
-                <img src="assets/Persistent Systems.svg" alt="" class="company-logo" style="width: 29%;"/>
-                <div class="experience-description">
-                    <div class="fw-bold">Software Engineer , Persistent Systems, June 2023</div>
-                    <div>&nbsp;➤ Implemented Google Maps API services to build dynamic,interactive map features in web applications.</div>
-                    <div>&nbsp;➤ Led the Migration of deprecated Google Maps features to updated solutions, improving application stability, maintain
-                      ability.</div>
-                      <div>&nbsp;➤ Reduced Google Maps billing by applying best practices like field masking,reducing the unnecessary data and improving performance</div>
+            </section>
 
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="section-kicker">About</span>
+                        <h2 class="about-heading">I enjoy building good web apps and solving real problems.</h2>
+                        <p>
+                            I have worked on React apps, APIs, Google Maps features, and production releases.
+                            I like turning ideas into apps that are simple, useful, and easy to maintain.
+                        </p>
+                    </div>
+
+                    <div class="about-panel">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-5 text-center">
+                                <img src="assets/about-coding-life.svg" alt="Custom coding-themed illustration showing a modern developer workspace" class="img-fluid about-img">
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="work">
+                                    <div class="bullet-point"><i class="fa-solid fa-code"></i></div>
+                                    <div>
+                                        <div class="heading">Frontend development</div>
+                                        <p class="work-description">
+                                            I work with React.js, TypeScript, JavaScript, Redux, Bootstrap,
+                                            and Material UI to build clean and responsive interfaces.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="work">
+                                    <div class="bullet-point"><i class="fa-solid fa-map-location-dot"></i></div>
+                                    <div>
+                                        <div class="heading">API work</div>
+                                        <p class="work-description">
+                                            I have worked with Google Maps APIs, REST APIs, Axios, Fetch,
+                                            and JWT authentication in real projects.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="work">
+                                    <div class="bullet-point"><i class="fa-solid fa-database"></i></div>
+                                    <div>
+                                        <div class="heading">Team work and delivery</div>
+                                        <p class="work-description">
+                                            I am comfortable with feature work, debugging, code reviews,
+                                            Git workflows, UAT changes, and releases.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="card-content d-flex gap-md-4 align-items-center">
-                <img src="assets/DKTE-logo.png" alt="" class="company-logo" style="width: 29%;"/>
-                <div class="experience-description">
-                  <div class="fw-bold">B.tech in Computer Science and Engineering.</div>
-                    <div>&nbsp;➤ DKTE's Textile and Engineering Institute, Ichalkaranji.</div>
-                    <div>&nbsp;➤ Graduated in 2022.</div>
+            </section>
+
+            <section class="experience" id="experience">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="section-kicker">Experience</span>
+                        <h2 class="experience-heading">My work experience and the tools I use.</h2>
+                    </div>
+
+                    <div class="experience-layout">
+                        <div class="skills-panel">
+                            <div class="panel-title">Core Stack</div>
+                            <div class="grid-container">
+                                <div class="grid-item" title="HTML5"><img loading="lazy" src="./assets/html-icon.svg" alt="HTML logo"></div>
+                                <div class="grid-item" title="CSS"><img loading="lazy" src="./assets/css-icon.svg" alt="CSS logo"></div>
+                                <div class="grid-item" title="Bootstrap"><img loading="lazy" src="./assets/bootstrap-5-logo-icon.svg" alt="Bootstrap logo"></div>
+                                <div class="grid-item" title="JavaScript"><img loading="lazy" src="./assets/javascript-logo-svgrepo-com.svg" alt="JavaScript logo"></div>
+                                <div class="grid-item" title="SQL"><img loading="lazy" src="./assets/database.svg" alt="Database logo"></div>
+                                <div class="grid-item" title="React JS"><img loading="lazy" src="./assets/react-svgrepo-com.svg" alt="React logo"></div>
+                                <div class="grid-item" title="Git"><img loading="lazy" src="./assets/git-icon.svg" alt="Git logo"></div>
+                                <div class="grid-item" title="Google Maps API"><img loading="lazy" src="assets/google-maps.svg" alt="Google Maps logo"></div>
+                                <div class="grid-item" title="Typescript"><img loading="lazy" src="assets/typescript.svg" alt="TypeScript logo"></div>
+                                <div class="grid-item" title="VS Code"><img loading="lazy" src="assets/vscode.svg" alt="VS Code logo"></div>
+                                <div class="grid-item" title="Firebase"><img loading="lazy" src="assets/firebase.svg" alt="Firebase logo"></div>
+                                <div class="grid-item" title="GitHub"><img loading="lazy" src="assets/github.svg" alt="GitHub logo"></div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-panel">
+                            <article class="card-content">
+                                <div class="company-mark">
+                                    <img src="assets/Persistent Systems.svg" alt="Persistent Systems logo" class="company-logo">
+                                </div>
+                                <div class="experience-description">
+                                    <div class="role-meta">Lead Software Engineer / Persistent Systems</div>
+                                    <div class="role-date">December 2025 - Present</div>
+                                    <p>Worked on old systems and delivered 4+ production features with less support.</p>
+                                    <p>Handled full deployment work across Dev, UAT, and Production for 4+ releases.</p>
+                                    <p>Managed GitLab work, production issues, and 6+ UAT changes in a team setup.</p>
+                                </div>
+                            </article>
+
+                            <article class="card-content">
+                                <div class="company-mark">
+                                    <img src="assets/Persistent Systems.svg" alt="Persistent Systems logo" class="company-logo">
+                                </div>
+                                <div class="experience-description">
+                                    <div class="role-meta">Senior Software Engineer / Persistent Systems</div>
+                                    <div class="role-date">June 2024 - December 2025</div>
+                                    <p>Worked on a real-time client-facing Kanban dashboard in React.js 18.</p>
+                                    <p>Improved rendering using React hooks, Context API, and Redux.</p>
+                                    <p>Used AI tools, code reviews, and Agile work style to improve speed and code quality.</p>
+                                </div>
+                            </article>
+
+                            <article class="card-content">
+                                <div class="company-mark">
+                                    <img src="assets/Persistent Systems.svg" alt="Persistent Systems logo" class="company-logo">
+                                </div>
+                                <div class="experience-description">
+                                    <div class="role-meta">Software Engineer / Persistent Systems</div>
+                                    <div class="role-date">June 2022 - May 2024</div>
+                                    <p>Integrated 5+ Google Maps API services and worked on 3+ client-facing POCs.</p>
+                                    <p>Built reusable React.js UI components and integrated 10+ REST APIs.</p>
+                                    <p>Worked on JWT authentication and TypeScript improvements in multiple apps.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- 
-      <section class="projects" id="projects">
-        <div class="container">
-          <h2 class="text-light project-heading">Projects</h2>
-          <div class="projects-container">
+            </section>
 
-            <div class="project">
-              <img src="assets/Moviexer.png" alt="" />
-              <h3 class="py-md-3">Movie Search Web App</h3>
-              <p>Built a responsive movie search app using React.js, with Firebase for auth and watchlist storage. Integrated OMDB API via Axios, and used React Router & Context API for navigation and state. Features include dark mode, pagination, and a modern UI with Bootstrap, Material UI, and CSS3.</p>
-              <p>Tech Stack: React.js, Firebase Authentication, Firestore, OMDB API, Axios, React Router, Context API, Bootstrap, Material UI, CSS3</p>
-              <a href="https://movie-search-i79cafh1r-abhibhagat001s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary first-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-              <a href="https://github.com/abhibhagat001/moviexer" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
-            </div>
+            <section class="projects" id="projects">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="section-kicker">Projects</span>
+                        <h2 class="project-heading">Some of my work and important details from my resume.</h2>
+                    </div>
 
-            <div class="project">
-              <img src="assets/Gemini-clone.png" alt="" />
-              <h3 class="py-md-3">Gemini Frontend (Google Gemini UI Clone)</h3>
-              <p>A responsive UI clone of Google’s Gemini built with React.js and Vite, showcasing modern design and component-based architecture.</p>
-              <p>Tech Stack: React.js, Vite, JavaScript, HTML/CSS, ESLint</p>
-              <a href="https://gemini-clone-frontend-tt2v.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary first-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-              <a href="https://github.com/abhibhagat001/Gemini-Clone-Frontend" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
-            </div>
+                    <div class="projects-container">
+                        <article class="project">
+                            <div class="project-image-wrap">
+                                <img src="assets/Moviexer.png" alt="Moviexer application preview">
+                            </div>
+                            <div class="project-content">
+                                <span class="project-tag">React App</span>
+                                <h3>Moviexer - Movie Search Web App</h3>
+                                <p>Built a responsive movie search app with Firebase login and movie details using the OMDB API.</p>
+                                <p class="tech-stack">React.js, Firebase, OMDB API, Material UI, Framer Motion, Bootstrap 5</p>
+                                <div class="project-actions">
+                                    <a href="https://movie-search-rlhapx1ea-abhibhagat001s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn primary-btn first-btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        Live Demo
+                                    </a>
+                                    <a href="https://github.com/abhibhagat001/moviexer" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">
+                                        <i class="fa-solid fa-code"></i>
+                                        Source
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
 
-            <div class="project">
-              <img src="assets/EBook-Website.png" alt="" />
-              <h3 class="py-md-3">Ebook Website</h3>
-              <p>A responsive landing page built using Bootstrap, Sass, and Font Awesome icons to practice modern UI design.It Includes elements like a sticky navbar, testimonials, and a contact section.</p>
-              <p>Tech Stack:Bootstrap 5,SASS(Scss),HTML/CSS,Font Awesome library</p>
-              <a href="https://readnest.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary first-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
-              <a href="https://github.com/abhibhagat001/Ebook-Website" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-solid fa-code"></i> Source Code</a>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-     
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="row text-center text-md-start">
-          <div class="col-md-6 col-sm-12 mb-3">
-            <p class="contact-text">Contact</p>
-            <p class="tagline">Feel free to react out to me!</p>
-          </div>
-          <div class="col-md-6 col-sm-12 text-md-end">
-            <div class="social-links">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abhibhagat111213@gmail.com" target="_blank"><img src="assets/gmail-svgrepo-com.svg" style="width: 22px;" /> abhibhagat111213@gmail.com</a>
-              <a href="https://www.linkedin.com/in/abhishekbhagat1/" target="_blank"><img src="assets/linkedin-svgrepo-com.svg" style="width: 22px;"/> linkedin.com/in/abhishekbhagat1/</a>
-              <a href="https://github.com/abhibhagat001" target="_blank"><img src="assets/github-icon-1-logo-svgrepo-com.svg" style="width: 22px;"/> github.com/abhibhagat001</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
- 
+                        <article class="project">
+                            <div class="project-content">
+                                <span class="project-tag">Certification</span>
+                                <h3>React Developer Certification</h3>
+                                <p>A React certification from Persistent University.</p>
+                                <p class="tech-stack">Persistent University</p>
+                                <a href="https://drive.google.com/file/d/1NHy62YSJaeRGTwvXAD92qyzM4Z0KaAMm/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">
+                                    <i class="fa-solid fa-certificate"></i>
+                                    View Credential
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="project">
+                            <div class="project-content">
+                                <span class="project-tag">Education & Award</span>
+                                <h3>B.Tech + Special Mention Award</h3>
+                                <p>B.Tech in Computer Science and Engineering from DKTE with a CGPA of 7.91/10. I also got a Special Mention Award in the Google Maps Hackathon by Hack2Skill 2023.</p>
+                                <p class="tech-stack">Aug 2018 - Jun 2022 / 4-member team recognition</p>
+                                <a href="https://drive.google.com/file/d/1TVLfEUAEZVoxbSPu6tZEBraum1SDAYkB/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">
+                                    <i class="fa-solid fa-award"></i>
+                                    Cloud Credential
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="contact-panel">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-6">
+                                <span class="section-kicker">Contact</span>
+                                <p class="contact-text">Let's build something useful.</p>
+                                <p class="tagline">Open to software engineering roles, mainly in frontend and web development.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="social-links">
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhagatabhishek2424@gmail.com" target="_blank" rel="noopener noreferrer">
+                                        <img src="assets/gmail-svgrepo-com.svg" alt="Gmail icon">
+                                        bhagatabhishek2424@gmail.com
+                                    </a>
+                                    <a href="tel:+918459818916">
+                                        <i class="fa-solid fa-phone"></i>
+                                        +91 8459818916
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/abhishekbhagat1/" target="_blank" rel="noopener noreferrer">
+                                        <img src="assets/linkedin-svgrepo-com.svg" alt="LinkedIn icon">
+                                        linkedin.com/in/abhishekbhagat1
+                                    </a>
+                                    <a href="https://github.com/abhibhagat001" target="_blank" rel="noopener noreferrer">
+                                        <img src="assets/github-icon-1-logo-svgrepo-com.svg" alt="GitHub icon">
+                                        github.com/abhibhagat001
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
- 

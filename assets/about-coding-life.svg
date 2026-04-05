@@ -1,0 +1,69 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="100" x2="670" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13243C"/>
+      <stop offset="1" stop-color="#0A1424"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="180" y1="170" x2="640" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A3152"/>
+      <stop offset="1" stop-color="#0F1E33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="214" y1="237" x2="557" y2="557" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="blurGlow" x="0" y="0" width="800" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" rx="56" fill="url(#bg)"/>
+
+  <g filter="url(#blurGlow)" opacity="0.65">
+    <circle cx="182" cy="171" r="88" fill="#2563EB"/>
+    <circle cx="628" cy="626" r="94" fill="#14B8A6"/>
+  </g>
+
+  <rect x="108" y="116" width="584" height="568" rx="36" fill="url(#panel)" stroke="rgba(255,255,255,0.14)"/>
+  <rect x="144" y="152" width="512" height="62" rx="20" fill="#0D1A2C"/>
+  <circle cx="184" cy="183" r="8" fill="#F87171"/>
+  <circle cx="210" cy="183" r="8" fill="#FBBF24"/>
+  <circle cx="236" cy="183" r="8" fill="#34D399"/>
+
+  <rect x="144" y="238" width="330" height="240" rx="28" fill="#0B1525" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="498" y="238" width="158" height="104" rx="24" fill="#0B1525" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="498" y="358" width="158" height="120" rx="24" fill="#0B1525" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="144" y="504" width="512" height="132" rx="28" fill="#0B1525" stroke="rgba(255,255,255,0.08)"/>
+
+  <rect x="176" y="274" width="178" height="18" rx="9" fill="#1E3A5F"/>
+  <rect x="176" y="316" width="252" height="12" rx="6" fill="#254872"/>
+  <rect x="176" y="346" width="228" height="12" rx="6" fill="#254872"/>
+  <rect x="176" y="376" width="136" height="12" rx="6" fill="#254872"/>
+  <path d="M379 313L405 339L379 365" stroke="#60A5FA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M315 365L289 339L315 313" stroke="#2DD4BF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="522" y="262" width="92" height="18" rx="9" fill="#1E3A5F"/>
+  <rect x="522" y="296" width="68" height="12" rx="6" fill="#254872"/>
+
+  <path d="M531 399C531 380.775 545.775 366 564 366H591C609.225 366 624 380.775 624 399V441H531V399Z" fill="url(#accent)"/>
+  <circle cx="578" cy="395" r="30" fill="#F8FAFC"/>
+  <path d="M562 394C562 385.163 569.163 378 578 378V378C586.837 378 594 385.163 594 394V411H562V394Z" fill="#0F172A"/>
+  <rect x="556" y="410" width="44" height="16" rx="8" fill="#0F172A"/>
+
+  <rect x="174" y="534" width="112" height="18" rx="9" fill="#1E3A5F"/>
+  <rect x="174" y="570" width="458" height="12" rx="6" fill="#254872"/>
+  <rect x="174" y="598" width="388" height="12" rx="6" fill="#254872"/>
+
+  <circle cx="606" cy="573" r="30" fill="#0F1E33" stroke="#284C74" stroke-width="2"/>
+  <path d="M596 573L604 581L618 565" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M228 102L236 78L244 102" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M640 136L646 118L652 136" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M118 624L124 606L130 624" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="608" cy="148" r="4" fill="#F8FAFC"/>
+  <circle cx="660" cy="176" r="4" fill="#F8FAFC"/>
+  <circle cx="154" cy="248" r="4" fill="#F8FAFC"/>
+  <circle cx="682" cy="586" r="4" fill="#F8FAFC"/>
+</svg>
